@@ -1,1 +1,1 @@
-# HTML-Project
+# html-css-js-project-boilerplate

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width = device-width initial-scale=1.0">
+    <title>University WebSite(Project)</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="books.jpg" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="Contactus.html">Contact us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <h1>
+            Contact Us
+        </h1>
+
+    </sectio>
+    <section class="location">
+        <!-- <iframe src="https://www.google.com/maps/d/embed?mid=1B1lAsUpYFg82Je7XN1_cxRPf1UU&hl=en_US&ehbc=2E312F" width="640" height="480"></iframe> -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61094.98597140288!2d74.5841002!3d16.854282299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc10c8187f060eb%3A0x37911f53cdc1ddb3!2sSangli%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1658698959580!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact">
+        <div class="row">
+            <div class="con-col">
+                <div>
+                    <i class="fa fa-home" ></i>
+                    <span>
+                        <h5>xyz road, lmn building</h5>
+                        <p>
+                            Sangli, Maharashtra.
+                        </p>
+                    </span>
+
+                </div>
+                <div>
+                    <i class="fa fa-phone" ></i>
+                    <span>
+                        <h5>+91 8698289824</h5>
+                        <p>
+                            10AM - 6PM
+                        </p>
+                    </span>
+
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o" ></i>
+                    <span>
+                        <h5>adi31114@gmail.com</h5>
+                        <p>
+                            Email us your query
+                        </p>
+                    </span>
+
+                </div>
+                
+            </div>
+        
+        <div class="con-col">
+            <form action="">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="email address" required>
+                <input type="text" placeholder="subject" required>
+                <textarea  rows="10" placeholder="message" required></textarea>
+                <button type="submit" class="visit">Send e-mail</button>
+            </form>
+        </div>
+        </div>
+    
+    </section>
+    
+    
+
+    <section class="footer">
+        <h2>About Us</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quam, tempora temporibus distinctio ad eaque?<br> Labore ipsa, minima assumenda libero, vero minus cupiditate aut praesentium, rem pariatur consequuntur aspernatur numquam.
+        </p><div class="icon">
+            <i class="fa fa-facebook-official" ></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+        </div>
+    </section>
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
